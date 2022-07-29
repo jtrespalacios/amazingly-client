@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#c52127</color>
-    <color name="colorPrimaryDark">#c52127</color>
-    <color name="colorAccent">#c52127</color>
+    <color name="colorPrimary">#171044</color>
+    <color name="colorPrimaryDark">#171044</color>
+    <color name="colorAccent">#171044</color>
     <color name="Sanddtorm">#FFE595</color>
     <color name="white">#ffffff</color>
     <color name="colorwhite_50">#CCffffff</color>

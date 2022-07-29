@@ -163,8 +163,8 @@ public class HomeF extends RootFragment implements View.OnClickListener, Fragmen
         tabNoFollower=view.findViewById(R.id.tabNoFollower);
         followingBtn.setOnClickListener(this);
         relatedBtn.setOnClickListener(this);
-        liveUsers = view.findViewById(R.id.live_users);
-        liveUsers.setOnClickListener(this);
+//        liveUsers = view.findViewById(R.id.live_users);
+//        liveUsers.setOnClickListener(this);
         swiperefresh = view.findViewById(R.id.swiperefresh);
         swiperefresh.setProgressViewOffset(false, 0, 200);
         swiperefresh.setColorSchemeResources(R.color.black);
@@ -310,12 +310,12 @@ public class HomeF extends RootFragment implements View.OnClickListener, Fragmen
 
                 break;
 
-            case R.id.live_users:
-                onPause();
-                Intent intent=new Intent(view.getContext(),LiveUsersA.class);
-                startActivity(intent);
-                getActivity().overridePendingTransition(R.anim.in_from_right, R.anim.out_to_left);
-                break;
+//            case R.id.live_users:
+//                onPause();
+//                Intent intent=new Intent(view.getContext(),LiveUsersA.class);
+//                startActivity(intent);
+//                getActivity().overridePendingTransition(R.anim.in_from_right, R.anim.out_to_left);
+//                break;
 
             default:
                 return;
